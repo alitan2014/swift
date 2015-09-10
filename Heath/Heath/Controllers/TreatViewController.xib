@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TreatViewController" customModule="Heath" customModuleProvider="target">
+            <connections>
+                <outlet property="abdominalImgView" destination="aMI-zb-jrb" id="Gbt-YD-rzB"/>
+                <outlet property="bodyImgView" destination="y39-Ui-hai" id="eJS-eV-BMF"/>
+                <outlet property="chestImgView" destination="jLr-Z9-i0C" id="oZn-5G-Wtf"/>
+                <outlet property="faceButton" destination="wg2-Ak-9XU" id="Smq-pJ-Lqc"/>
+                <outlet property="footImgView" destination="Y1U-lK-V0I" id="hro-TP-kLX"/>
+                <outlet property="handImgView" destination="kiH-LV-19H" id="TpW-W4-ghr"/>
+                <outlet property="legImgView" destination="11K-2c-tn7" id="m94-xn-84m"/>
+                <outlet property="limbImgView" destination="rbO-Qp-ofQ" id="PUC-RC-jmU"/>
+                <outlet property="manButton" destination="y0y-GW-npQ" id="Z60-Nh-T9f"/>
+                <outlet property="neckImageView" destination="df8-gu-5S9" id="9yD-h1-1Z5"/>
+                <outlet property="otherButton" destination="fZD-QQ-K2P" id="GRT-pA-HWu"/>
+                <outlet property="reproductionImgView" destination="iUc-JD-qaF" id="MPP-fE-aqx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="woManButton" destination="hhD-xn-0oC" id="8e3-0i-5xC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wg2-Ak-9XU">
+                    <rect key="frame" x="247" y="423" width="60" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="intelligent_diagnosis_btn_front.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="intelligent_diagnosis_btn_back.png"/>
+                    <connections>
+                        <action selector="btbClick:" destination="-1" eventType="touchUpInside" id="JBA-dh-m8l"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fZD-QQ-K2P">
+                    <rect key="frame" x="203" y="18" width="94" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="其他全身症状">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btbClick:" destination="-1" eventType="touchUpInside" id="X7X-tK-htf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="TreatViewController" image="man_front.png" id="y39-Ui-hai">
+                    <rect key="frame" x="85" y="63" width="150" height="360"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" clipsSubviews="YES" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y0y-GW-npQ">
+                    <rect key="frame" x="20" y="336" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="btn_checkbox.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btbClick:" destination="-1" eventType="touchUpInside" id="ZUc-mh-PJy"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0317.png" id="Y1U-lK-V0I">
+                    <rect key="frame" x="127" y="384" width="66" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="150" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0109.png" id="kiH-LV-19H">
+                    <rect key="frame" x="85" y="235" width="150" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="160" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0108.png" id="rbO-Qp-ofQ">
+                    <rect key="frame" x="96" y="131" width="126" height="108"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="120" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0315.png" id="iUc-JD-qaF">
+                    <rect key="frame" x="128" y="218" width="67" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="140" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0310.png" id="jLr-Z9-i0C">
+                    <rect key="frame" x="127" y="139" width="65" height="43"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="130" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0311.png" id="aMI-zb-jrb">
+                    <rect key="frame" x="130" y="182" width="61" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="170" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0307.png" id="df8-gu-5S9">
+                    <rect key="frame" x="143" y="113" width="34" height="19"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView tag="180" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2jd-js-hgv">
+                    <rect key="frame" x="133" y="63" width="52" height="52"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intelligence_highlight_0116.png" id="11K-2c-tn7">
+                    <rect key="frame" x="125" y="235" width="71" height="149"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hhD-xn-0oC">
+                    <rect key="frame" x="20" y="393" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="btn_checkbox.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btbClick:" destination="-1" eventType="touchUpInside" id="k0m-C5-qBS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="326" y="913"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_checkbox.png" width="25" height="25"/>
+        <image name="intelligence_highlight_0108.png" width="284" height="241"/>
+        <image name="intelligence_highlight_0109.png" width="344" height="90"/>
+        <image name="intelligence_highlight_0116.png" width="161" height="336"/>
+        <image name="intelligence_highlight_0307.png" width="76" height="27"/>
+        <image name="intelligence_highlight_0310.png" width="136" height="79"/>
+        <image name="intelligence_highlight_0311.png" width="132" height="83"/>
+        <image name="intelligence_highlight_0315.png" width="153" height="70"/>
+        <image name="intelligence_highlight_0317.png" width="164" height="69"/>
+        <image name="intelligent_diagnosis_btn_back.png" width="110" height="48"/>
+        <image name="intelligent_diagnosis_btn_front.png" width="110" height="48"/>
+        <image name="man_front.png" width="171" height="400"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
